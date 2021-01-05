@@ -15,7 +15,7 @@ body * {
 }
 
 .navbar {
-  background: #726a95;
+  background: #111d5e;
 }
 
 a .nav-link {
@@ -35,13 +35,25 @@ header h2 {
   font-size: 50px;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
 hr {
-  color: #000000;
-  height: 30%;
+  width: 15%;
+  height: 0.5px;
+  background: #000000;
+}
+
+.formulario hr {
+  width: 15%;
+  height: 0.5px;
+  background: #ffffff;
 }
 
 .primera {
-  text-align: right;
+  /* text-align: right; */
   background-image: url('../img/Arya-y-yo-color.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +63,7 @@ hr {
 }
 
 .biografia {
-  background: #f4ebc1;
+  background: #c70039;
 }
 
 .experiencia {
@@ -59,34 +71,31 @@ background: #ffffff;
 }
 
 .trabajos {
-  background: #709fb0;
+  background: #f37121;
 }
 
-.trabajos h2 {
-  font-family: Dosis;
-  font-weight: bold;
-  font-size: 50px;
+
+.cajas {
+  background: #f37121;
 }
 
 .formulario {
-    background: #726a95;
+    background: #c0e218;
 }
 
-.formulario h2 {
-  font-family: Dosis;
-  font-weight: bold;
-  font-size: 50px;
-}
 
 .formulario h4 {
   font-weight: bold;
   font-size: 30px;
 }
 
+footer {
+  background: #111d5e;
+}
+
 footer p {
   font-family: Fredericka the great;
   font-size: 60px;
   font-weight: regular;
-  background: #f4ebc1;
   color: #ffffff;
 }
