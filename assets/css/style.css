@@ -1,0 +1,44 @@
+body {
+  font-family: Poiret One;
+  font-size: 20px;
+}
+
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand p {
+  font-family: Fredericka the great;
+  font-size: 60px;
+  font-weight: regular;
+}
+
+header h1 {
+  font-family: Fredericka the great;
+  font-size: 90px;
+  text-shadow: 30px;
+  vertical-align: baseline;
+  margin-bottom: 0.25em;
+}
+
+header h2 {
+  font-family: Shadows Into Light Two;
+  font-size: 50px;
+}
+
+.mayreni {
+  text-align: right;
+  background-image: url('../img/Arya-y-yo-color.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 22.25rem 9.125rem;
+}
+
+footer p {
+  font-family: Fredericka the great;
+  font-size: 60px;
+  font-weight: regular;
+}
