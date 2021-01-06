@@ -12,7 +12,7 @@ body * {
   font-size: 60px;
   font-weight: normal;
   color: #ffffff;
-  text-shadow: 0.110em 0.08em 0.110em #adb5bd
+  text-shadow: 0.110em 0.08em 0.110em #adb5bd;
 }
 
 .navbar {
@@ -22,11 +22,6 @@ body * {
 header h1 {
   font-family: Fredericka the great;
   font-size: 90px;
-}
-
-header h2 {
-  font-family: Shadows Into Light Two;
-  font-size: 50px;
 }
 
 h2 {
@@ -43,12 +38,6 @@ h3 {
   text-shadow: 0.100em 0.10em 0.100em #495057;
 }
 
-h5 {
-  font-size: 22px;
-  font-weight: bold;
-  color: #373A3C;
-}
-
 hr {
   width: 10%;
   height: 0.5px;
@@ -63,7 +52,7 @@ header {
   background-size: cover;
   background-position:top;
   text-shadow: 0.125em 0.25em 0.125em #707070;
-  padding: 22rem 8rem;
+  padding: 25rem 8rem;
 }
 
 .biografia {
@@ -84,11 +73,29 @@ header {
 }
 
 .experiencia img {
-  width: 30%;
+  width: 40%;
+  height: 120px;
+}
+
+.experiencia h5 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #373A3C;
+  margin-top: 15px;
+  line-height: 100%;
+}
+
+.experiencia p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #373A3C;
+  margin-top: 15px;
+  line-height: 100%;
 }
 
 .cuadrado {
   background: #111d5e;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 .carousel-indicators {
@@ -101,6 +108,12 @@ header {
   border-radius: 25%;
 }
 
+.unico {
+  width: 100%;
+  height: 0.5px;
+  background: #373A3C;
+  margin-top: 20px;
+}
 
 .trabajos {
   background: #f37121;
@@ -111,15 +124,11 @@ header {
   text-shadow: none;
 }
 
-.formulario h4 {
-  font-weight: bold;
-  font-size: 30px;
-  color: #373A3C;
-}
-
 footer {
   background: #c0e218;
   box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.7);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer p {
@@ -127,5 +136,58 @@ footer p {
   font-size: 60px;
   font-weight: normal;
   color: #ffffff;
-  text-shadow: 0.110em 0.08em 0.110em #adb5bd
+  text-shadow: 0.110em 0.08em 0.110em #adb5bd;
+}
+
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+  header {
+    background-image: url('../img/Yo-represa-maipo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 22rem 8rem;
+  }
+
+  header h1 {
+    font-family: Fredericka the great;
+    font-size: 40px;
+    color: #c70039;
+  }
+
+  .navbar-brand p {
+    font-family: Fredericka the great;
+    font-size: 40px;
+    font-weight: normal;
+    color: #ffffff;
+    text-shadow: 0.110em 0.08em 0.110em #adb5bd;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #373A3C;
+    text-shadow: 0.110em 0.10em 0.110em #adb5bd;
+  }
+
+
+  footer p {
+    font-family: Fredericka the great;
+    font-size: 40px;
+    font-weight: normal;
+    color: #ffffff;
+    text-shadow: 0.110em 0.08em 0.110em #adb5bd;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+
+
 }
