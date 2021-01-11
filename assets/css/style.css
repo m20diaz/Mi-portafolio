@@ -72,6 +72,14 @@ header {
   padding: 35rem 12rem;
 }
 
+a:hover {
+  color: #373A3C;
+}
+
+a:visited {
+  color: #373A3C;
+}
+
 .biografia {
   background: #c70039;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);

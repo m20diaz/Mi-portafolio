@@ -13,7 +13,7 @@ $(function() {
 
   $('[data-toggle="popover"]').popover();
 
-  $("a").on("click", function(){
+  $("a .nav-link").on("click", function(){
     $(this).css("color", "pink");
   });
 
