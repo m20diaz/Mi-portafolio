@@ -11,6 +11,10 @@ $(function() {
     }
   });
 
-  $('[data-toggle="popover"]').popover()
+  $('[data-toggle="popover"]').popover();
+
+  $("h4").on("dblclick", function(){
+    $(this).css("color", "red");
+  });
 
 });
