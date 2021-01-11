@@ -13,8 +13,8 @@ $(function() {
 
   $('[data-toggle="popover"]').popover();
 
-  $("h4").on("dblclick", function(){
-    $(this).css("color", "red");
+  $("a").on("click", function(){
+    $(this).css("color", "pink");
   });
 
 });
