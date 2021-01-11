@@ -1,5 +1,5 @@
 $(function() {
-  $("a").click(function(event) {
+  $("a .nav-link").click(function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var numeral = this.hash;
